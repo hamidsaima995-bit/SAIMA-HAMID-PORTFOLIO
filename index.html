@@ -496,14 +496,14 @@ body.orbs-day .sho6{ background:radial-gradient(circle at 30% 30%,#FFD36B,#FF7A0
 .bk-mini:active{transform:translateY(0);}
 </style>
 <style id="sh-v29">
-.sh-wa{position:fixed;left:20px;bottom:20px;z-index:999;width:56px;height:56px;border-radius:50%;background:#25D366;display:flex;align-items:center;justify-content:center;box-shadow:0 8px 22px rgba(0,0,0,.4),0 0 0 0 rgba(37,211,102,.5);animation:sh-wapulse 2.4s ease-out infinite;transition:transform .18s;}
+.sh-wa{display:none;position:fixed;left:20px;bottom:20px;z-index:999;width:56px;height:56px;border-radius:50%;background:#25D366;display:flex;align-items:center;justify-content:center;box-shadow:0 8px 22px rgba(0,0,0,.4),0 0 0 0 rgba(37,211,102,.5);animation:sh-wapulse 2.4s ease-out infinite;transition:transform .18s;}
 .sh-wa:hover{transform:scale(1.08);}
 @keyframes sh-wapulse{0%{box-shadow:0 8px 22px rgba(0,0,0,.4),0 0 0 0 rgba(37,211,102,.5);}70%{box-shadow:0 8px 22px rgba(0,0,0,.4),0 0 0 16px rgba(37,211,102,0);}100%{box-shadow:0 8px 22px rgba(0,0,0,.4),0 0 0 0 rgba(37,211,102,0);}}
 @media(max-width:640px){.sh-wa{width:52px;height:52px;left:16px;bottom:16px;}}
 </style>
 <style id="sh-v32">
 #aibots .botpick{display:flex;flex-wrap:wrap;gap:14px;justify-content:center;max-width:820px;margin:6px auto 0;}
-.botbtn{cursor:pointer;text-align:left;min-width:200px;flex:0 1 240px;background:linear-gradient(160deg,rgba(40,32,18,.5),rgba(18,20,32,.58));-webkit-backdrop-filter:blur(10px);backdrop-filter:blur(10px);border:1px solid rgba(245,179,1,.34);border-radius:16px;padding:16px 18px;color:#f4ecdf;transition:transform .16s,box-shadow .16s,border-color .16s;}
+.botbtn{cursor:pointer;text-decoration:none;text-align:left;min-width:200px;flex:0 1 240px;background:linear-gradient(160deg,rgba(40,32,18,.5),rgba(18,20,32,.58));-webkit-backdrop-filter:blur(10px);backdrop-filter:blur(10px);border:1px solid rgba(245,179,1,.34);border-radius:16px;padding:16px 18px;color:#f4ecdf;transition:transform .16s,box-shadow .16s,border-color .16s;}
 .botbtn b{display:block;font:700 16px 'Segoe UI',sans-serif;color:#ffe6a0;}
 .botbtn span{display:block;margin-top:3px;font:600 12px 'Segoe UI',sans-serif;color:#c8b58c;}
 .botbtn:before{content:"\1F4AC  ";}
@@ -579,7 +579,7 @@ body.orbs-day .sho6{ background:radial-gradient(circle at 30% 30%,#FFD36B,#FF7A0
       <div class="tile star ai fx"><div class="tile-bg"></div><div class="corbit"><span class="corb co1"></span><span class="corb co2"></span><span class="corb co3"></span><span class="corb co4"></span></div>
         <div class="tile-in"><span class="tcat">AI & Chatbots</span><div class="tlinks"><a href="https://nexabot-production-3a24.up.railway.app" target="_blank" rel="noopener">NexaBot &#8599;</a><a href="https://wa.me/923210014466" target="_blank" rel="noopener">SAIMA-BOT &#8599;</a></div></div></div>
       <div class="tile star web fx"><div class="tile-bg"></div><div class="corbit"><span class="corb co1"></span><span class="corb co2"></span><span class="corb co3"></span><span class="corb co4"></span></div>
-        <div class="tile-in"><span class="tcat">Web Apps</span><div class="tlinks"><a href="https://ninjatechdev.com" target="_blank" rel="noopener">Color Theory &#8599;</a><a href="https://oddexvibe.com" target="_blank" rel="noopener">OddexVibe &#8599;</a><a href="https://munshi-jee-production-0cb7.up.railway.app" target="_blank" rel="noopener">Munshi Jee &#8599;</a></div></div></div>
+        <div class="tile-in"><span class="tcat">Web Apps</span><div class="tlinks"><a href="https://colorthemepresentationbysaimahamid.netlify.app" target="_blank" rel="noopener">Color Theory &#8599;</a><a href="https://oddexvibe.com" target="_blank" rel="noopener">OddexVibe &#8599;</a><a href="https://munshi-jee-production-0cb7.up.railway.app" target="_blank" rel="noopener">Munshi Jee &#8599;</a></div></div></div>
       <div class="tile star studio fx"><div class="tile-bg"></div><div class="corbit"><span class="corb co1"></span><span class="corb co2"></span><span class="corb co3"></span><span class="corb co4"></span></div>
         <div class="tile-in"><span class="tcat">Studio</span><div class="tlinks"><a href="https://ninjatechdev.com" target="_blank" rel="noopener">Ninja Tech Dev &#8599;</a></div></div></div>
     </div>
@@ -715,11 +715,12 @@ body.orbs-day .sho6{ background:radial-gradient(circle at 30% 30%,#FFD36B,#FF7A0
   </div>
   </section>
   <section class="block" id="aibots">
-    <div class="head reveal"><h2>Meet my <b>AI Bots</b></h2><p>Chat live with the assistants I built &mdash; pick one, it opens bottom-right.</p></div>
+    <div class="head reveal"><h2>Meet my <b>AI Bots</b></h2><p>Each bot runs on a live demo site &mdash; click to open and chat (bubble, bottom-right).</p></div>
     <div class="botpick reveal">
-      <button class="botbtn on" data-bot="bef6ee89-bb1b-4ae0-99c3-8f3625527339"><b>Ninja Assist</b><span>Ninja Tech &middot; my studio</span></button>
-      <button class="botbtn" data-bot="649e44e7-5059-4d1e-86ab-afccb9c32295"><b>Glow Assistant</b><span>Glow Aesthetics Clinic</span></button>
-      <button class="botbtn" data-bot="5f7f08be-023d-4413-9302-172dfe422bcd"><b>Dr. Assist</b><span>Lahore Dental Clinic</span></button>
+      <a class="botbtn" href="https://ninjatechdev.com" target="_blank" rel="noopener"><b>Ninja Assist</b><span>Ninja Tech &middot; my studio site</span></a>
+      <a class="botbtn" href="https://ninjatechdev.com/demo-vanya.html" target="_blank" rel="noopener"><b>Vanya Assistant</b><span>Vanya &middot; clothing store demo</span></a>
+      <a class="botbtn" href="https://ninjatechdev.com/demo-nexabot.html" target="_blank" rel="noopener"><b>Dr. Assist</b><span>Lahore Dental Clinic demo</span></a>
+      <a class="botbtn" href="https://ninjatechdev.com/demo-glow.html" target="_blank" rel="noopener"><b>Glow Assistant</b><span>Glow Aesthetics Clinic demo</span></a>
     </div>
     <p class="botnote reboot">Live, embeddable AI chatbots &mdash; built with NexaBot (my SaaS). WhatsApp automation available too.</p>
     <div class="dashwrap reveal">
@@ -870,37 +871,13 @@ body.orbs-day .sho6{ background:radial-gradient(circle at 30% 30%,#FFD36B,#FF7A0
  } else { begin(); }
 })();
 </script>
-<a class="sh-wa" href="https://wa.me/923210014466" target="_blank" rel="noopener" aria-label="Chat on WhatsApp" title="Chat on WhatsApp">
-<svg viewBox="0 0 32 32" width="30" height="30" fill="#fff" aria-hidden="true"><path d="M16 3C9.4 3 4 8.4 4 15c0 2.1.6 4.1 1.6 5.9L4 29l8.3-1.6c1.7.9 3.7 1.4 5.7 1.4 6.6 0 12-5.4 12-12S22.6 3 16 3zm0 21.8c-1.8 0-3.5-.5-5-1.4l-.4-.2-3.3.6.7-3.2-.2-.4c-1-1.6-1.5-3.4-1.5-5.2 0-5.4 4.4-9.8 9.8-9.8s9.8 4.4 9.8 9.8-4.5 9.8-9.9 9.8zm5.4-7.3c-.3-.1-1.8-.9-2-1-.3-.1-.5-.1-.7.1-.2.3-.8 1-.9 1.2-.2.2-.3.2-.6.1-.3-.1-1.3-.5-2.4-1.5-.9-.8-1.5-1.8-1.7-2.1-.2-.3 0-.5.1-.6.1-.1.3-.3.4-.5.1-.2.2-.3.3-.5.1-.2 0-.4 0-.5-.1-.1-.7-1.6-.9-2.2-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.5s1.1 2.9 1.2 3.1c.1.2 2.1 3.2 5.1 4.5.7.3 1.3.5 1.7.6.7.2 1.4.2 1.9.1.6-.1 1.8-.7 2-1.5.3-.7.3-1.4.2-1.5-.1-.1-.3-.2-.6-.3z"/></svg>
-</a><script>
+<script>
 (function(){
  var API="https://nexabot-production-3a24.up.railway.app";
- var SRC=API+"/widget.js";
- function loadBot(id){
-   var host=document.getElementById('nexabot-host'); if(host) host.remove();
-   var old=document.getElementById('nexa-dyn'); if(old) old.remove();
-   var sc=document.createElement('script');
-   sc.id='nexa-dyn'; sc.src=SRC;
-   sc.setAttribute('data-bot-id', id);
-   sc.setAttribute('data-api', API);
-   document.body.appendChild(sc);
- }
- var btns=[].slice.call(document.querySelectorAll('.botbtn'));
- btns.forEach(function(btn){
-   btn.addEventListener('click',function(){
-     btns.forEach(function(b){b.classList.remove('on');});
-     btn.classList.add('on');
-     var id=btn.getAttribute('data-bot');
-     loadBot(id);
-     // try to auto-open the panel after it renders
-     setTimeout(function(){
-       var h=document.getElementById('nexabot-host');
-       if(h&&h.shadowRoot){var l=h.shadowRoot.querySelector('.launcher'); if(l) l.click();}
-     },1200);
-   });
- });
- // default: load Ninja Tech bot on page load
- loadBot('bef6ee89-bb1b-4ae0-99c3-8f3625527339');
+ var sc=document.createElement('script'); sc.src=API+"/widget.js";
+ sc.setAttribute('data-bot-id','bef6ee89-bb1b-4ae0-99c3-8f3625527339');
+ sc.setAttribute('data-api',API); sc.defer=true;
+ document.body.appendChild(sc);
 })();
 </script>
 </body>
