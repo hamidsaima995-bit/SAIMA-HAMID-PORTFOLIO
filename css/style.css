@@ -3042,7 +3042,7 @@ body.orbs-day .sho6 {
 
 /* About: glass profile card fills empty side */
 .about {
-  align-items: stretch !important;
+  align-items: center !important;
 }
 .about-side {
   display: flex;
@@ -3050,7 +3050,7 @@ body.orbs-day .sho6 {
 }
 .as-card {
   position: relative;
-  width: 320px;
+  width: 296px;
   max-width: 88vw;
   background: linear-gradient(
     160deg,
@@ -3061,7 +3061,7 @@ body.orbs-day .sho6 {
   backdrop-filter: blur(12px);
   border: 1px solid rgba(245, 179, 1, 0.34);
   border-radius: 20px;
-  padding: 30px 26px 26px;
+  padding: 22px 22px 20px;
   text-align: center;
   box-shadow:
     0 0 40px rgba(150, 110, 30, 0.16),
@@ -3080,7 +3080,7 @@ body.orbs-day .sho6 {
   border: 1px solid rgba(90, 220, 140, 0.4);
   border-radius: 999px;
   padding: 5px 13px;
-  margin-bottom: 18px;
+  margin-bottom: 12px;
 }
 .as-badge i {
   width: 8px;
@@ -3100,9 +3100,9 @@ body.orbs-day .sho6 {
   }
 }
 .as-mono {
-  width: 88px;
-  height: 88px;
-  margin: 0 auto 14px;
+  width: 72px;
+  height: 72px;
+  margin: 0 auto 10px;
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -3167,7 +3167,7 @@ body.orbs-day .sho6 {
   margin-top: 3px;
 }
 .as-rows {
-  margin: 18px 0 20px;
+  margin: 12px 0 14px;
   text-align: left;
 }
 .as-row {
@@ -3175,7 +3175,7 @@ body.orbs-day .sho6 {
   justify-content: space-between;
   align-items: center;
   gap: 10px;
-  padding: 9px 2px;
+  padding: 6px 2px;
   border-bottom: 1px dashed rgba(245, 179, 1, 0.2);
 }
 .as-row:last-child {
